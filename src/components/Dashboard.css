@@ -1,0 +1,61 @@
+@import "./variables.css";
+
+.chosenStrategyContainer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 20px 0;
+    font-family: 'Lora', serif;
+    padding: 10px 10%;
+}
+.dashboardStrategyHeader{
+    font-size: 24px;
+    color: var(--dark-blue);
+    font-weight: bold;
+}
+.dashboardStrategyContent{
+    font-size: 20px;
+}
+.chosenStrategy {
+    background-color: var(--half-light-grey);
+    border-radius: 15px;
+    width: 70%;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.chosenStrategyPerformance {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chosenStrategyPerformanceDetail {
+    background-color: var(--half-light-grey);
+    border-radius: 20px;
+    height: 130px;
+    width: 60%;
+    margin: 20px 5%;
+    padding: 20px;
+}
+
+.historyContainer{
+    display: flex;
+    flex-flow: column;
+    
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: 'Lora', serif;
+    padding: 0 10%;
+}
+
+.history{
+    background-color: var(--half-light-grey);
+    border-radius: 15px;
+    width: 70%;
+    margin: 10px 0;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+}

@@ -10,6 +10,9 @@ To run the code, you should first install some packages
 ```
 npm install react-router-dom
 npm install firebase 
+npm install apexcharts react-apexcharts
+npm install axios
+npm install firebase-admin coinbase-pro request
 ```
 
 

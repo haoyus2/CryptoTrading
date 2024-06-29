@@ -1,0 +1,14 @@
+:root{
+    --white: #ffffff;
+    --light-blue:#9BC9FF;
+    --grey: #333333;
+    --dark-blue: #11389D;
+    --light-grey:#e2e2e2;
+    --half-light-grey:rgba(226, 226, 226, 0.5);
+
+
+    --text-logo: 64px 'Lora';
+    --text-navi: 20px 'Inter';
+    --text-btn: 16px "Inter";
+    
+}

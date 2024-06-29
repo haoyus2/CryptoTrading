@@ -1,0 +1,76 @@
+@import "./variables.css";
+
+.signupContainer {
+    font-family: "Inter";
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.signupArea {
+    width: 90%;
+    max-width: 700px;
+    margin-top: 100px;
+    padding: 50px;
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    /* border: 1px solid red; */
+}
+
+.signupTitle {
+    color: var(--dark-blue);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.googleSignup {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    /* border: 1px solid red; */
+}
+
+.googleSignup button {
+    background: var(--white);
+    color: var(--grey);
+    width: 300px;
+    padding: 10px 20px;
+    border: 1px solid #757575;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+}
+
+.googleSignup button img {
+    margin-right: 20px;
+}
+
+.googleSignup button:hover {
+    background: #f5f5f5;
+}
+
+.loginIfHaveAccount {
+    display: flex;
+    justify-content: space-between;
+}
+
+.loginIfHaveAccount .linkToLogin {
+    text-decoration: none;
+    color: var(--dark-blue);
+}
+
+.signupInfo {
+    font-size: smaller;
+    /* border: 1px solid red; */
+    margin-bottom: 0;
+}

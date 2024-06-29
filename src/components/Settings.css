@@ -1,0 +1,112 @@
+@import "./variables.css";
+
+.settingsContainer {
+    font-family: "Inter";
+    display: flex;
+    justify-content: center;
+}
+.settingsArea {
+    width: 90%;
+    max-width: 700px;
+    margin-top: 100px;
+    padding: 50px;
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    /* border: 1px solid red; */
+}
+
+.manageBtn {
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    text-align: center;
+    font: var(--text-btn);
+}
+
+.setUsername {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    /* background-color: var(--light-grey); */
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.UsernameInputs {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+
+.changeUsernameBtn {
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    text-align: center;
+    font: var(--text-btn);
+}
+
+.changeUsernameInput {
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 8px;
+    border: 0;
+    color: var(--dark-blue);
+}
+
+
+.setAPI {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px 10px;
+    /* background-color: var(--light-grey); */
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.APIInputs {
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+.setAPI input {
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 8px;
+    border: 0;
+    color: var(--dark-blue);
+}
+
+.changeAPIBtn {
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    /* background-color: var(--dark-blue);
+    color: var(--white); */
+    text-align: center;
+    font: var(--text-btn);
+}
+
+.changeAPIBtn:enabled {
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+.changeAPIBtn:disabled {
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+}
