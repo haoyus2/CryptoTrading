@@ -13,6 +13,8 @@ npm install firebase
 npm install apexcharts react-apexcharts
 npm install axios
 npm install firebase-admin coinbase-pro request
+npm install dotenv
+
 ```
 
 
