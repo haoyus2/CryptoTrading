@@ -1,6 +1,0 @@
-key:5336a79a2936f4b6b28fc0bf26eeb629
-passphrase: gocik5373ed
-secret: ldQW+9oqxV9HfEqzgF3wdpXa1n6k7Y4xslx1Kl51W7CGyiEZyGzbeL+lieclzhHhWby0zHfK2VHn00HazOGWFA==
-
-# API_URL = "https://api-public.sandbox.pro.coinbase.com"
-API_URL = "https://api-public.sandbox.exchange.coinbase.com"

@@ -2,17 +2,17 @@ import coinbasepro as cbp
 import pandas as pd
 import time
 import decimal
-import history
+from . import history
 
 def get_historical_data(client, product_id, granularity):
     return client.get_product_historic_rates(product_id, granularity=granularity)
 
-def calculate_sma(data, window=30):
+def calculate_sma(data, window=10):
     return data['close'].rolling(window=window).mean()
 
 def make_decision(data):
     df = pd.DataFrame(data, columns=['time', 'low', 'high', 'open', 'close', 'volume'])
-    df['sma'] = calculate_sma(df, 10)
+    df['sma'] = calculate_sma(df, 5)
     current_close = df['close'].iloc[-1]
     current_sma = df['sma'].iloc[-1]
     previous_sma = df['sma'].iloc[-2]

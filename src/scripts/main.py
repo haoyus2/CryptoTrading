@@ -2,8 +2,8 @@ import coinbasepro as cbp
 import pandas as pd
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-import client
-import trading
+from . import client
+from . import trading
 from threading import Thread, Event, Lock
 
 app = Flask(__name__)
